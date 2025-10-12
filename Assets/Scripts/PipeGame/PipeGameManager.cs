@@ -38,7 +38,7 @@ public class PipeGameManager : MonoBehaviour
 
         puzzleSolved = true;
         Debug.Log("✅ Puzzle Solved!");
-        GoToLevel(2); // example: load next level
+        GoToLevel("CaveMen"); // Load scene by name
     }
 
     private bool ArrayContains(PipeDirection[] arr, PipeDirection dir)
@@ -51,10 +51,12 @@ public class PipeGameManager : MonoBehaviour
         return false;
     }
 
-    private void GoToLevel(int level)
+    private void GoToLevel(string levelName)
     {
-        // Example: load scene by build index
-        // SceneManager.LoadScene(level);
-        Debug.Log($"🎮 Loading Level {level}...");
+        if (!string.IsNullOrEmpty(levelName))
+        {
+            Debug.Log($"🎮 Loading Level: {levelName}...");
+            SceneManager.LoadScene(levelName);
+        }
     }
 }

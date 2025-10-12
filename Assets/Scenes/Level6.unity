@@ -1600,27 +1600,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pipes:
   - pipe: {fileID: 1840747882}
-    validDirections: 0000000002000000
+    validDirections: 0100000003000000
   - pipe: {fileID: 1168676984}
-    validDirections: 0000000002000000
+    validDirections: 0300000001000000
   - pipe: {fileID: 76856340}
-    validDirections: 0000000002000000
+    validDirections: 0300000001000000
   - pipe: {fileID: 468702441}
-    validDirections: 0100000003000000
+    validDirections: 0000000002000000
   - pipe: {fileID: 1954625533}
-    validDirections: 0100000003000000
+    validDirections: 0000000002000000
   - pipe: {fileID: 1430403482}
-    validDirections: 0100000003000000
+    validDirections: 0000000002000000
   - pipe: {fileID: 535919483}
-    validDirections: 01000000
+    validDirections: 03000000
   - pipe: {fileID: 1310128384}
-    validDirections: 03000000
+    validDirections: 01000000
   - pipe: {fileID: 1172095788}
-    validDirections: 01000000
-  - pipe: {fileID: 1137401882}
     validDirections: 03000000
-  - pipe: {fileID: 387490047}
+  - pipe: {fileID: 1137401882}
     validDirections: 01000000
+  - pipe: {fileID: 387490047}
+    validDirections: 03000000
 --- !u!4 &478241782
 Transform:
   m_ObjectHideFlags: 0
@@ -2390,13 +2390,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625230532}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.491, y: 7.504, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -1.5, y: 10.46, z: 0}
   m_LocalScale: {x: 1.2828, y: 1.2828, z: 1.2828}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &635616377
 GameObject:
   m_ObjectHideFlags: 0

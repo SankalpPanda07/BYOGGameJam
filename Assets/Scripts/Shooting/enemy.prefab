@@ -224,7 +224,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9b8884b9b5c5ae2438b95469cc6e4166, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -323,7 +323,7 @@ MonoBehaviour:
   player: {fileID: 0}
   bulletPrefab: {fileID: 648930643454509014, guid: 7abd0318fed093843ae6578d499c54da, type: 3}
   firePoint: {fileID: 8657892663854943667}
-  weapon: {fileID: 8272579678438343615}
+  weapon: {fileID: 8114418271696622004}
   maxMoveSpeed: 3
   acceleration: 5
   deceleration: 5
@@ -332,3 +332,5 @@ MonoBehaviour:
   maxShootRange: 10
   fireRate: 1
   bulletSpeed: 10
+  maxHealth: 100
+  damageTakenPerHit: 25
