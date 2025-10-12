@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Level0.unity
+    guid: 2c709b53f701a5545ae8b762374a912e
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: e3c0a7ed71bb6f24dbdea8dbe5821861
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: ee00fe08d074dd44d95319f256f621b4
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: b7f27271a0ad2c347886820999a775e6
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 74544be781fd7bb49b1234f2ee2d8240
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: a9a2fc60ca6eae04dac7643faace6ab8
+  - enabled: 1
+    path: Assets/Scenes/IceAgeEra.unity
+    guid: c4d9e1239cbfce9489bf1d3319e6abc4
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: d22c6bc295148924bbc890a176a94260
+  - enabled: 1
+    path: Assets/Scenes/Level7.unity
+    guid: 41b6550c9020316459c274205620a6e8
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: a0ced8c04185e7545afefdbb724d0277
+  - enabled: 1
+    path: Assets/Scenes/Level9.unity
+    guid: 95ad1459b783cbd4d9c0e398f4d284f6
+  - enabled: 1
+    path: Assets/Scenes/MammothGame.unity
+    guid: 19e5ce0f4569cca4188e3be3d6eed12d
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 3d93809686f56a04699d38b6ea2c4d00
+  - enabled: 1
+    path: Assets/Scenes/CaveMen.unity
+    guid: 9f537b2515c8df04ea20efbca0e2bc08
+  - enabled: 1
+    path: Assets/Scenes/LevelDinoDied.unity
+    guid: 69b0fe16fd75d8a478a0fee06e8e3910
+  - enabled: 1
+    path: Assets/Scenes/Level11.unity
+    guid: f07c0e601ebf3fe47996e864d19a1900
+  - enabled: 1
+    path: Assets/Scenes/Level10.unity
+    guid: 1d99059d47ec1c542a4bf25a8b9adfdb
+  - enabled: 1
+    path: Assets/Scenes/Level13.unity
+    guid: 7d3d3479f411d764b923258c721a6618
+  m_configObjects: {}
