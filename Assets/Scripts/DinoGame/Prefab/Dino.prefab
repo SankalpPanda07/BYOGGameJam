@@ -478,20 +478,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f04d75c39d7e8314aa75435744b5be25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalSpeed: 2
-  runSpeed: 5
-  changeDirectionInterval: 2
-  maxHealth: 20
+  moveSpeed: 5
+  directionChangeInterval: 5
+  rescueZoneTag: RescueZone
+  avoidStrength: 5
+  minBounds: {x: -20, y: -10}
+  maxBounds: {x: 16, y: 10}
+  maxHealth: 30
   currentHealth: 0
-  healthSlider: {fileID: 7600767809512086435}
-  minPauseTime: 1
-  maxPauseTime: 2
-  avoidTag: RescueZone
+  healthSlider: {fileID: 0}
   damageTag: Asteroid
-  damageInterval: 0.1
-  damagePerTick: 1
-  separationDistance: 2
-  separationStrength: 1
+  damageInterval: 0.5
+  damagePerTick: 5
 --- !u!61 &6618790480713367462
 BoxCollider2D:
   m_ObjectHideFlags: 0

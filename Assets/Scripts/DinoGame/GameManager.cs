@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
         // Subscribe to death event
         foreach (var dino in allDinos)
         {
-            dino.OnDinoDeath += CheckDinosAlive;
+           // dino.OnDinoDeath += CheckDinosAlive;
         }
 
         StartCoroutine(GameTimerRoutine());

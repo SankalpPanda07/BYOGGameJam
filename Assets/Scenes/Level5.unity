@@ -767,6 +767,8 @@ MonoBehaviour:
   warningDuration: 2
   asteroidLifetime: 2
   mainCamera: {fileID: 1216971875}
+  waveDuration: 20
+  asteroidsPerWave: 010000000200000003000000
 --- !u!114 &171530933
 MonoBehaviour:
   m_ObjectHideFlags: 0
